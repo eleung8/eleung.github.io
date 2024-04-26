@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <ul class="container">
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#experience">Work Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+
+    <!-- Introduction -->
+    <section id="introduction" class="container">
+      <h1>Hi, I'm <span class="highlight">Elina.</span></h1>
+      <p>I'm a reliable, organized, and diligent multi-tasker who is able to complete assignments efficiently and with attention to detail. Seeking to provide solid results and valuable ideas to any tasks given. </p>
+    </section>
+
+    <!-- Work Experience -->
+    <section id="experience" class="container">
+      <h2>Work Experience</h2>
+      <div class="job">
+        <h3>Marketing Intern</h3>
+        <h4>Esiance Inc.</h4>
+        <p class="date">Start Date - End Date</p>
+        <li>Wrote effective and compulsive content for websites. </li>
+        <li>Designed and printed over 100+ different gift card invitations.</li>
+      </div>
+      <div class="job">
+        <h3>LAT Robotics Club President</h3>
+        <h4>Loretto Abbey Catholic Secondary School</h4>
+        <p class="date">2023 -</p>
+        <li>Organizes meetings and events for over 20 club members. </li>
+        <li>Regularly codes and teaches students in the school.</li>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <a href="#" class="image"><img src="images/image.jpg" alt="" /></a>
+        <div class="info">
+          <h3>Funky Fortunes</h3>
+          <p>A Swift app that provides daily fortunes and insight. Used to motivate users and to learn about the history of the fortune cookie. </p>
+          <a href="#" class="learn-more">Learn more</a>
+        </div>
+      </div>
+      <div class="project">
+        <a href="#" class="image"><img src="images/image.jpg" alt="" /></a>
+        <div class="info">
+          <h3>Project Title</h3>
+          <p>More details around project here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos
+            voluptatibus.</p>
+          <a href="#" class="learn-more">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <div class="school">
+        <h3>Loretto Abbey Catholic Secondary School</h3>
+        <p class="date">2020 -</p>
+        <p>Responsible, dedicated 11th grade student maintaining an A+ overall average. Consistent honour roll recipient. </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container">
+      <h2>Contact Me</h2>
+      <p>Fill out the form below to contact me.</p>
+      <div id="alert-message"></div> <!-- Alert message will display here! -->
+      <form action="" id="contact-form">
+        <input type="text" name="Name" placeholder="Name">
+        <input type="email" name="Email" placeholder="Email">
+        <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>&copy; 2024 <span class="highlight">Elina Leung</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
